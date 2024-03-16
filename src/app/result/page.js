@@ -1,16 +1,14 @@
 import moment from "moment";
 import Image from "next/image";
 import React from "react";
-import { FaArrowLeft, FaBackward, FaPhone } from "react-icons/fa";
+// import { FaArrowLeft, FaBackward, FaPhone } from "react-icons/fa";
 
 const Result = ({ result, setResult }) => {
   return (
     <div className="text-black">
       <div className="flex items-center justify-between bg-[#A6F1A6] p-4">
         <div className="flex items-center gap-2">
-          <span onClick={() => setResult(false)}>
-            <FaArrowLeft />
-          </span>
+          <span onClick={() => setResult(false)}>{/* <FaArrowLeft /> */}</span>
 
           <span>Result</span>
         </div>
@@ -59,7 +57,7 @@ const Result = ({ result, setResult }) => {
 
         <div className="flex items-center justify-between my-8">
           <div class="w-[140px] h-[80px] bg-[#349404] shadow-md rounded-lg flex items-center justify-center gap-2">
-            <FaPhone size={20} color="white" />
+            {/* <FaPhone size={20} color="white" /> */}
             <span className="font-semibold text-lg text-white">Dr Vinod</span>
           </div>
           <div class="w-[140px] px-4 text-center h-[80px] bg-[#349404] shadow-md rounded-lg flex items-center justify-center gap-2">
