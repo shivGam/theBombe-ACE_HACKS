@@ -1,12 +1,13 @@
 import Help from "@/components/Help";
 import ImageSelect from "@/components/ImageSelect";
+import NewsAndArticles from "@/components/NewsAndArticles";
 import Slider from "@/components/Slider";
 import Image from "next/image";
 import { FaHome, FaSearch, FaPlus, FaUser } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="bg-white h-[100dvh]">
+    <div className="bg-white ">
       <div className="h-[100px] w-full bg-black relative">
         <Slider />
         <div className="relative bg-transparent">
@@ -20,6 +21,7 @@ export default function Home() {
         <div className="mx-6">
           <ImageSelect />
           <Help />
+          <NewsAndArticles />
         </div>
       </div>
       <div className="flex items-center justify-center">
