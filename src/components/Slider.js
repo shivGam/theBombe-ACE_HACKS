@@ -29,10 +29,10 @@ const Slider = () => {
   return (
     <div
       id="controls-carousel"
-      className="relative w-full"
+      className="relative w-full h-[100px]"
       data-carousel="static"
     >
-      <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+      <div className="relative h-56 overflow-hidden rounded-lg">
         {images.map((image, index) => (
           <div
             key={index}
