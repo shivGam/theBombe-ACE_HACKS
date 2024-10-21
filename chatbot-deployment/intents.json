@@ -1,0 +1,140 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Welcome to theBombe! How can we assist you today?",
+        "Hey there! Welcome to theBombe. How can we help you?",
+        "Hi there! Thanks for stopping by theBombe. What can we do for you?",
+        "Hello! Feel free to ask us anything.",
+        "Good day! We're here to help you with crop disease detection and marketplace assistance."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Thanks for considering theBombe! Have a great day.",
+        "See you later! Feel free to come back anytime.",
+        "Goodbye! We look forward to assisting you again soon.",
+        "Take care! Don't hesitate to reach out if you need assistance.",
+        "Farewell! Let us know if you need help with anything else."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Glad we could assist you!", "Anytime! We're here to help.", "You're welcome!", "Happy to help!", "It's our pleasure."]
+    },
+    {
+      "tag": "disease_detection",
+      "patterns": [
+        "How can I detect crop diseases?",
+        "What should I do if my crops have diseases?",
+        "Can you help me identify crop diseases?"
+      ],
+      "responses": [
+        "We provide assistance in detecting crop diseases using image recognition technology.",
+        "Our platform offers tools to help you identify and diagnose crop diseases based on images you upload.",
+        "You can detect crop diseases by uploading images of your crops to our platform, and our system will provide diagnosis and recommendations."
+      ]
+    },
+    {
+      "tag": "marketplace_assistance",
+      "patterns": [
+        "How can I sell my crops?",
+        "Where can I find buyers for my produce?",
+        "Do you offer assistance in selling agricultural products?"
+      ],
+      "responses": [
+        "We offer marketplace assistance to help you sell your crops through our platform.",
+        "Our marketplace connects farmers with potential buyers, making it easier to sell your agricultural products.",
+        "You can list your crops for sale on our marketplace and reach potential buyers interested in agricultural produce."
+      ]
+    },
+    {
+      "tag": "farmers_questions",
+      "patterns": [
+        "What are some natural methods to control pests on my farm?",
+        "How can I improve soil fertility without using chemical fertilizers?",
+        "What are the best practices for irrigation in my region?",
+        "Can you suggest ways to minimize crop damage during extreme weather conditions?",
+        "What are the benefits of crop rotation, and how can I implement it effectively?",
+        "How can I manage weeds without relying on herbicides?",
+        "What are the signs of plant nutrient deficiencies, and how can I address them?",
+        "Can you recommend organic farming techniques suitable for my farm?"
+      ],
+      "responses": [
+        "Natural methods to control pests include crop rotation, companion planting, and introducing beneficial insects.",
+        "Improving soil fertility can be achieved through practices such as composting, cover cropping, and using organic amendments.",
+        "Best practices for irrigation depend on factors such as soil type, crop type, and climate. Consider drip irrigation or mulching to conserve water.",
+        "To minimize crop damage during extreme weather, consider installing protective structures, selecting resilient crop varieties, and implementing proper drainage.",
+        "Crop rotation benefits include pest and disease control, soil fertility improvement, and weed suppression. Plan your crop rotation based on your farm's needs.",
+        "Weed management techniques include mulching, hand-weeding, and using cover crops. Implement integrated weed management strategies for effective control.",
+        "Signs of nutrient deficiencies include yellowing leaves, stunted growth, and poor fruit development. Address deficiencies by soil testing and using organic amendments.",
+        "Organic farming techniques include composting, crop diversification, and biological pest control. Implementing these methods can promote soil health and biodiversity."
+      ]
+    },
+    {
+      "tag": "powdery_mildew_grapes",
+      "patterns": [
+        "What are the symptoms of powdery mildew in grapes?",
+        "How do I treat powdery mildew in my grapevine?",
+        "Can you provide information on powdery mildew management in grapes?"
+      ],
+      "responses": [
+        "Powdery mildew in grapes is characterized by white powdery spots on leaves and stems. Treatment involves fungicides and proper vineyard management."
+      ]
+    },
+    {
+      "tag": "yellow_rust_wheat",
+      "patterns": [
+        "How can I identify yellow rust in wheat?",
+        "What are the signs of yellow rust in wheat?",
+        "What are the treatment options for yellow rust in wheat?"
+      ],
+      "responses": [
+        "Yellow rust in wheat appears as yellowish-orange pustules on leaves. Timely application of fungicides and planting resistant varieties can help manage the disease."
+      ]
+    },
+    {
+      "tag": "bacterial_blight_rice",
+      "patterns": [
+        "What are the symptoms of bacterial blight in rice?",
+        "How do I control bacterial blight in my rice paddies?",
+        "Can you recommend treatments for bacterial blight in rice?"
+      ],
+      "responses": [
+        "Bacterial blight in rice causes water-soaked lesions on leaves and panicles. Cultural practices and resistant varieties are key for management."
+      ]
+    },
+    {
+      "tag": "late_blight_potatoes",
+      "patterns": [
+        "What are the signs of late blight in potatoes?",
+        "How can I manage late blight in my potato fields?",
+        "Can you provide information on late blight management in potatoes?"
+      ],
+      "responses": [
+        "Late blight in potatoes presents as dark, water-soaked lesions on leaves and stems. Fungicides and crop rotation are essential for control."
+      ]
+    },
+    {
+      "tag": "fusarium_wilt_tomatoes",
+      "patterns": [
+        "How do I recognize fusarium wilt in tomatoes?",
+        "What are the symptoms of fusarium wilt in tomato plants?",
+        "Can you suggest management strategies for fusarium wilt in tomatoes?"
+      ],
+      "responses": [
+        "Fusarium wilt in tomatoes results in yellowing and wilting of leaves. Soil sterilization and resistant cultivars can help prevent its spread."
+      ]
+    }
+  ]
+}
