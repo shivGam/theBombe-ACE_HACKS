@@ -9,7 +9,7 @@ const Chatbox = ({ state }) => {
   const fetchResponse = async () => {
     try {
       const response = await axios.post(
-        "http://127.0.0.1:5001/chat",
+        "http://127.0.0.1:5001/predict",
         { message: inputText },
         {
           headers: {
