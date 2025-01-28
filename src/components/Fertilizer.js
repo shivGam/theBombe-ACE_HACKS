@@ -14,23 +14,18 @@ const FertilizerSuggestion = () => {
     // Construct the JSON object with user inputs
     const requestData = {
       nitrogen,
-      phosphorous: phosphorus,
-      pottasium: potassium,
-      cropname: selectedCrop,
+      phosphorus: phosphorus,
+      potassium: potassium,
+      crop: selectedCrop,
     };
-    const formData = new FormData();
-    formData.append("nitrogen", nitrogen);
-    formData.append("phosphorous", phosphorus);
-    formData.append("pottasium", potassium);
-    formData.append("cropname", selectedCrop);
-
+  
     try {
       const response = await axios.post(
         "http://127.0.0.1:5004/fertilizer-predict",
-        formData,
+        requestData,
         {
           headers: {
-            "Content-Type": "multipart/form-data",
+            "Content-Type": "application/json",
           },
         }
       );
