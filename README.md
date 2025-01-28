@@ -4,7 +4,7 @@
 Farm - Buddy is a mobile-friendly application designed to assist farmers in diagnosing crop diseases, providing fertilizer recommendations, connecting with local doctors, receiving crop recommendations based on weather data, accessing a marketplace, and getting assistance through a chatbot for agricultural queries.
 
 ## Technologies Used
-
+- Download the pre-trained model file `plant_disease_model_1.pt` from [here](https://drive.google.com/drive/folders/1ewJWAiduGuld_9oGSrTuLumg9y62qS6A?usp=share_link)
 - Next.js: A React framework for frontend development.
 - Express.js: A Node.js web application framework for backend development.
 - Flask: A micro web framework for Python used for backend services.
